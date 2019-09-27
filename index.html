@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="style.css">
 
   <!-- Bootstrap CDN -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/litera/bootstrap.min.css" rel="stylesheet" integrity="sha384-D/7uAka7uwterkSxa2LwZR7RJqH2X6jfmhkJ0vFPGUtPyBMF2WMq9S+f9Ik5jJu1" crossorigin="anonymous">
 
   <!-- Bootstrap core JavaScript -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -49,20 +49,30 @@
         <a class="nav-link" href="#">Contact</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
           Langues
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item  text-center" href="#"><img src="flag-fr.png" height="20" width="20"> Français
+        <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 38px, 0px);">
+          <a class="dropdown-item" href="#"><img src="flag-fr.png" height="20" width="20"> Français
           </a>
-          <a class="dropdown-item  text-center" href="#"><img src="flag-gb.png" height="20" width="20"> Anglais</a>
+          <a class="dropdown-item" href="#"><img src="flag-gb.png" height="20" width="20"> Anglais</a>
         </div>
       </li>
     </ul>
   </div>
 </nav>
 
-
+<!--JUMBOTRON-->
+ <div id="jumbotron-hero" class="jumbotron jumbotron-fluid">
+    <div class="text-center">
+      <h1 class="display-3 text-white font-weight-normal">MOODLINK</h1>
+      <p class="lead text-white font-weight-normal">Découvrez l'application !</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Je découvre MOODLINK</a>
+      <a button type="button" class="btn btn-info btn-lg" href="#" role="button">Je télécharge l'appli</a> 
+    </div>
+  </div>
+<!--FIN JUMBOTRON-->
 
 </body>
 </html>
